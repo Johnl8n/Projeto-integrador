@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+main {
+  padding: 20px;
+}
+
+.Carrinho {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.Carrinho th,
+.Carrinho td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.Carrinho th {
+  background-color: #f9f9f9;
+  font-weight: bold;
+  text-align: left;
+}
+
+.remover {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.resumo {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+}
+
+.btn-imprimir {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
